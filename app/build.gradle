@@ -1,0 +1,14 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'org.afaq.browser'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'org.afaq.browser'
+        minSdk 19
+        targetSdk 28
+        versionCode 1
+        versionName '0.1.0'
+    }
+}
